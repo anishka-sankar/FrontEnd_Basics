@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 40px ;
+}
+/* In box model- the highest value between 2 margins will be used for distancing box1 and box2*/
+.box-one {
+    background-color: aqua;
+    margin:10px;  /* outer most */
+    border: 10px solid;  /* middle */ 
+    padding:20px; /* inner most */
+    height: 100px;
+    width:100px;
+    box-sizing: border-box; /* counts padding and border in height and width */
+}
+
+.box-two {
+    background-color: brown;
+    margin : 100px;
+    border: 20px solid; 
+    padding: 30px;
+    height: 100px;
+    width:100px;
+}
+
+/*
+* - universal selector (used to select any and all types of elements in an HTML page)
+To separate 2 elements use margin
+To separate content from the box itself use padding
+*/
